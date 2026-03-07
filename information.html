@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZenSu | Məhsullar</title>
+    <title>ZenSu | Məlumat</title>
     <meta
       name="description"
-      content="ZenSu su filtrləri məhsulları - ev və ofis üçün etibarlı filtrasiya sistemləri."
+      content="ZenSu məlumat səhifəsi: su filtrlərinin üstünlükləri, alternativ su mənbələrinin riskləri və maarifləndirici mövzular."
     />
     <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
     <link rel="shortcut icon" href="assets/icons/favicon.svg" />
@@ -24,8 +24,8 @@
         <div class="brand">Zen<span>Su</span></div>
         <nav class="site-nav" aria-label="Site navigation">
           <a href="index.html" data-i18n="nav.home"></a>
-          <a class="active" href="products.html" data-i18n="nav.products"></a>
-          <a href="information.html" data-i18n="nav.information"></a>
+          <a href="products.html" data-i18n="nav.products"></a>
+          <a class="active" href="information.html" data-i18n="nav.information"></a>
         </nav>
         <div class="lang-switcher" aria-label="Language switcher">
           <button class="active" data-lang="az" type="button">AZ</button>
@@ -37,21 +37,34 @@
 
     <main class="container">
       <section class="products-hero">
-        <span class="eyebrow" data-i18n="products.eyebrow"></span>
-        <h1 data-i18n="products.title"></h1>
-        <p class="section-sub" data-i18n="products.subtitle"></p>
+        <span class="eyebrow" data-i18n="information.eyebrow"></span>
+        <h1 data-i18n="information.title"></h1>
+        <p class="section-sub" data-i18n="information.subtitle"></p>
       </section>
 
-      <section>
-        <div class="filter-row" id="products-filter"></div>
-        <div class="products-grid" id="products-list"></div>
+      <section class="info-section">
+        <h2 class="section-title" data-i18n="information.whyFiltersTitle"></h2>
+        <p class="section-sub info-sub" data-i18n="information.whyFiltersIntro"></p>
+        <div class="info-grid" id="reasons-list"></div>
+      </section>
+
+      <section class="info-section">
+        <h2 class="section-title" data-i18n="information.downsidesTitle"></h2>
+        <p class="section-sub info-sub" data-i18n="information.downsidesIntro"></p>
+        <div class="info-grid" id="downsides-list"></div>
+      </section>
+
+      <section class="info-section">
+        <h2 class="section-title" data-i18n="information.forumsTitle"></h2>
+        <p class="section-sub info-sub" data-i18n="information.forumsIntro"></p>
+        <div class="forum-grid" id="forums-list"></div>
       </section>
 
       <section class="contact">
         <div class="contact-box">
           <div>
-            <h2 class="section-title" data-i18n="products.contactTitle"></h2>
-            <p data-i18n="products.contactSub"></p>
+            <h2 class="section-title" data-i18n="information.contactTitle"></h2>
+            <p data-i18n="information.contactSub"></p>
           </div>
           <div class="contact-links">
             <a href="tel:+994502510072">+994 50 251 00 72</a>
@@ -67,6 +80,6 @@
       </div>
     </footer>
 
-    <script type="module" src="assets/js/pages/products.js"></script>
+    <script type="module" src="assets/js/pages/information.js"></script>
   </body>
 </html>

@@ -236,6 +236,72 @@ section {
   padding-top: 18px;
 }
 
+.info-section {
+  padding-top: 18px;
+}
+
+.info-sub {
+  max-width: 86ch;
+  margin-bottom: 16px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.info-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.info-card-title {
+  margin: 0 0 8px;
+  font-size: 1.04rem;
+}
+
+.info-card-description {
+  margin: 0;
+  color: var(--muted);
+}
+
+.forum-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.forum-card {
+  background: linear-gradient(160deg, #f8fcff, #edf7fd);
+  border: 1px solid #d9ebf5;
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.forum-tag {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: var(--primary-strong);
+  background: rgba(11, 125, 183, 0.13);
+  border-radius: 999px;
+  padding: 4px 9px;
+}
+
+.forum-title {
+  margin: 10px 0 8px;
+  font-size: 1.03rem;
+}
+
+.forum-description {
+  margin: 0;
+  color: var(--muted);
+}
+
 .filter-row {
   display: flex;
   flex-wrap: wrap;
@@ -371,6 +437,8 @@ footer {
   }
 
   .cards,
+  .info-grid,
+  .forum-grid,
   .products-grid {
     grid-template-columns: 1fr;
   }

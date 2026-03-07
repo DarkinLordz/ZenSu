@@ -6,11 +6,15 @@ export const SITE_CONTENT = {
         "ZenSu Azərbaycanda müasir su filtri həlləri təqdim edir. Ev və ofis üçün peşəkar filtrasiya sistemləri.",
       productsTitle: "ZenSu | Məhsullar",
       productsDescription:
-        "ZenSu su filtrləri məhsulları - ev və ofis üçün etibarlı filtrasiya sistemləri."
+        "ZenSu su filtrləri məhsulları - ev və ofis üçün etibarlı filtrasiya sistemləri.",
+      informationTitle: "ZenSu | Məlumat",
+      informationDescription:
+        "ZenSu məlumat səhifəsi: su filtrlərinin üstünlükləri, alternativ su mənbələrinin riskləri və maarifləndirici mövzular."
     },
     nav: {
       home: "Ana səhifə",
-      products: "Məhsullar"
+      products: "Məhsullar",
+      information: "Məlumat"
     },
     common: {
       callBtn: "İndi zəng edin",
@@ -54,6 +58,24 @@ export const SITE_CONTENT = {
         office: "Ofis",
         premium: "Premium"
       }
+    },
+    information: {
+      eyebrow: "ZenSu məlumat mərkəzi",
+      title: "Niyə su filtri istifadə etməlisiniz?",
+      subtitle:
+        "Su filtrlərinin əsas üstünlüklərini və alternativ üsulların risklərini ətraflı şəkildə izah edirik.",
+      whyFiltersTitle: "Filtr istifadəsinin əsas üstünlükləri",
+      whyFiltersIntro:
+        "Düzgün filtr sistemi gündəlik keyfiyyətli su təminatında həm sağlamlıq, həm rahatlıq, həm də xərclərə nəzarət baxımından effektiv həlldir.",
+      downsidesTitle: "Alternativ üsulların mənfi tərəfləri",
+      downsidesIntro:
+        "Filtrsiz və ya nəzarətsiz üsullar qısa müddətdə praktik görünsə də, uzunmüddətli baxışda risk və əlavə xərc yarada bilər.",
+      forumsTitle: "Məlumat forumları və genişləndirmə sahəsi",
+      forumsIntro:
+        "Bu bölmə geniş məlumat mövzuları üçün nəzərdə tutulub. Yeni forum kartları əlavə etməklə səhifəni davamlı inkişaf etdirə bilərsiniz.",
+      contactTitle: "Əlavə məlumat üçün əlaqə",
+      contactSub:
+        "Su keyfiyyəti, uyğun filtr modeli və texniki xidmət planı barədə peşəkar məsləhət üçün bizimlə əlaqə saxlayın."
     }
   },
   ru: {
@@ -63,11 +85,15 @@ export const SITE_CONTENT = {
         "ZenSu предлагает современные решения фильтрации воды в Азербайджане для дома и офиса.",
       productsTitle: "ZenSu | Продукция",
       productsDescription:
-        "Продукция ZenSu для фильтрации воды - надежные системы для дома и офиса."
+        "Продукция ZenSu для фильтрации воды - надежные системы для дома и офиса.",
+      informationTitle: "ZenSu | Информация",
+      informationDescription:
+        "Информационная страница ZenSu: преимущества фильтров, риски альтернативных способов получения воды и полезные темы."
     },
     nav: {
       home: "Главная",
-      products: "Продукция"
+      products: "Продукция",
+      information: "Информация"
     },
     common: {
       callBtn: "Позвонить сейчас",
@@ -110,6 +136,24 @@ export const SITE_CONTENT = {
         office: "Офис",
         premium: "Премиум"
       }
+    },
+    information: {
+      eyebrow: "Информационный центр ZenSu",
+      title: "Почему стоит использовать фильтры для воды?",
+      subtitle:
+        "Подробно объясняем ключевые преимущества фильтрации и риски альтернативных способов получения воды.",
+      whyFiltersTitle: "Ключевые преимущества фильтрации",
+      whyFiltersIntro:
+        "Правильно подобранная система фильтрации помогает получить стабильное качество воды, удобство в использовании и более предсказуемые расходы.",
+      downsidesTitle: "Недостатки альтернативных подходов",
+      downsidesIntro:
+        "Некоторые методы могут казаться удобными в краткосрочной перспективе, но часто создают дополнительные риски и затраты в долгосрочной.",
+      forumsTitle: "Информационные форумы и зона расширения",
+      forumsIntro:
+        "Раздел создан для масштабирования обучающего контента. Вы можете легко добавлять новые карточки тем по мере необходимости.",
+      contactTitle: "Связаться для консультации",
+      contactSub:
+        "Свяжитесь с нами, чтобы получить профессиональную консультацию по качеству воды, подбору фильтра и сервисному обслуживанию."
     }
   },
   en: {
@@ -119,11 +163,15 @@ export const SITE_CONTENT = {
         "ZenSu provides modern water filtration solutions in Azerbaijan for homes and offices.",
       productsTitle: "ZenSu | Products",
       productsDescription:
-        "ZenSu water filtration products for home and office use in Azerbaijan."
+        "ZenSu water filtration products for home and office use in Azerbaijan.",
+      informationTitle: "ZenSu | Information",
+      informationDescription:
+        "ZenSu information page: filter benefits, downsides of other water options, and expandable educational topics."
     },
     nav: {
       home: "Home",
-      products: "Products"
+      products: "Products",
+      information: "Information"
     },
     common: {
       callBtn: "Call now",
@@ -166,6 +214,24 @@ export const SITE_CONTENT = {
         office: "Office",
         premium: "Premium"
       }
+    },
+    information: {
+      eyebrow: "ZenSu information center",
+      title: "Why should you use water filters?",
+      subtitle:
+        "We explain the practical benefits of filtration and the downsides of other common ways of getting water.",
+      whyFiltersTitle: "Core benefits of using filters",
+      whyFiltersIntro:
+        "A properly selected filtration system supports safer daily consumption, better convenience, and more predictable long-term costs.",
+      downsidesTitle: "Downsides of alternative methods",
+      downsidesIntro:
+        "Some alternatives may seem easy at first, but often lead to additional risk, maintenance issues, or higher costs over time.",
+      forumsTitle: "Informative forums and expansion area",
+      forumsIntro:
+        "This section is built for ongoing educational content. You can add new forum cards at any time as your knowledge base grows.",
+      contactTitle: "Get expert guidance",
+      contactSub:
+        "Contact us for professional guidance on water quality, filter selection, and maintenance planning."
     }
   }
 };
