@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="ZenSu Office Flow">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#edf4ff" />
+      <stop offset="100%" stop-color="#d9eefc" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2)" />
+  <rect x="220" y="120" width="360" height="360" rx="28" fill="#ffffff" stroke="#b4d1e8" stroke-width="8" />
+  <rect x="280" y="180" width="240" height="120" rx="14" fill="#f2f9ff" stroke="#9fc6df" stroke-width="6" />
+  <rect x="290" y="330" width="220" height="95" rx="10" fill="#0b7db7" opacity="0.82" />
+  <text x="400" y="540" text-anchor="middle" font-size="42" font-family="Plus Jakarta Sans, sans-serif" fill="#0d496a">ZS-OFFICE-02</text>
+</svg>

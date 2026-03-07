@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZenSu | Məhsullar</title>
+    <meta
+      name="description"
+      content="ZenSu su filtrləri məhsulları - ev və ofis üçün etibarlı filtrasiya sistemləri."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+    <link rel="shortcut icon" href="assets/icons/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="brand">Zen<span>Su</span></div>
+        <nav class="site-nav" aria-label="Site navigation">
+          <a href="index.html" data-i18n="nav.home"></a>
+          <a class="active" href="products.html" data-i18n="nav.products"></a>
+        </nav>
+        <div class="lang-switcher" aria-label="Language switcher">
+          <button class="active" data-lang="az" type="button">AZ</button>
+          <button data-lang="ru" type="button">RU</button>
+          <button data-lang="en" type="button">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="products-hero">
+        <span class="eyebrow" data-i18n="products.eyebrow"></span>
+        <h1 data-i18n="products.title"></h1>
+        <p class="section-sub" data-i18n="products.subtitle"></p>
+      </section>
+
+      <section>
+        <div class="filter-row" id="products-filter"></div>
+        <div class="products-grid" id="products-list"></div>
+      </section>
+
+      <section class="contact">
+        <div class="contact-box">
+          <div>
+            <h2 class="section-title" data-i18n="products.contactTitle"></h2>
+            <p data-i18n="products.contactSub"></p>
+          </div>
+          <div class="contact-links">
+            <a href="tel:+994502510072">+994 50 251 00 72</a>
+            <a href="mailto:zensuazerbaijan@gmail.com">zensuazerbaijan@gmail.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <span data-i18n="common.footer"></span>
+      </div>
+    </footer>
+
+    <script type="module" src="assets/js/pages/products.js"></script>
+  </body>
+</html>
