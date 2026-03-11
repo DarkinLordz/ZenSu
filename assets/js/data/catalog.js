@@ -44,7 +44,7 @@ export const PRODUCT_CATALOG = [
   {
     id: "1",
     category: "home",
-    image: "assets/images/products/1.jpg",
+    image: "assets/images/products/1.png",
     title: {
       az: "BARYER PROFI OSMO 75",
       ru: "5-ступенчатая система очистки воды обратного осмоса без помпы",
