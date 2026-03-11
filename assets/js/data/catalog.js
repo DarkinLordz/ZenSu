@@ -55,6 +55,6 @@ export const PRODUCT_CATALOG = [
       ru: "БАРЬЕР ПРОФИ ОСМО 75 — 5-ступенчатая система обратного осмоса с мембраной 75 GPD и баком 12 л, обеспечивающая 100% очистку от бактерий, вирусов и накипи при производительности 1 л/мин.",
       en: "BARRIER PROFI OSMO 75 — A 5-stage reverse osmosis system with 75 GPD membrane and 12L tank, providing 100% purification from bacteria, viruses, and limescale with a 1 L/min flow rate."
     },
-    price: ""
+    price: "Təyin olunmayıb"
   }
 ];
