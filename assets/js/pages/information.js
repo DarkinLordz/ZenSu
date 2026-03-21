@@ -1,7 +1,7 @@
 import {
   DEFAULT_LANG,
   applyI18n,
-  bindLanguageSwitcher,
+  bindLanguageSwitcher, // Hi
   setPageMeta
 } from "../core/i18n.js";
 import { renderInformationPage } from "../components/information.js";
