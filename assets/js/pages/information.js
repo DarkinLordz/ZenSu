@@ -1,13 +1,14 @@
 import {
   DEFAULT_LANG,
   applyI18n,
-  bindLanguageSwitcher, // Hi
+  bindLanguageSwitcher,
   setPageMeta
 } from "../core/i18n.js";
 import { renderInformationPage } from "../components/information.js";
 
 const reasonsList = document.getElementById("reasons-list");
 const downsidesList = document.getElementById("downsides-list");
+const technologyArticle = document.getElementById("technology-article");
 const forumsList = document.getElementById("forums-list");
 
 function updateInformationPage(lang) {
@@ -18,6 +19,7 @@ function updateInformationPage(lang) {
     lang: activeLang,
     reasonsContainer: reasonsList,
     downsidesContainer: downsidesList,
+    featuredArticleContainer: technologyArticle,
     forumsContainer: forumsList
   });
 }

@@ -29,7 +29,10 @@
         <nav class="site-nav" aria-label="Site navigation">
           <a href="index.html" data-i18n="nav.home"></a>
           <a href="products.html" data-i18n="nav.products"></a>
-          <a class="active" href="information.html" data-i18n="nav.information"></a>
+          <span class="site-nav-item site-nav-item-featured">
+            <a class="nav-badge" href="information.html#technology-article" data-i18n="common.newBadge"></a>
+            <a class="active" href="information.html" data-i18n="nav.information"></a>
+          </span>
         </nav>
         <div class="lang-switcher" aria-label="Language switcher">
           <button class="active" data-lang="az" type="button">AZ</button>
@@ -57,6 +60,8 @@
         <p class="section-sub info-sub" data-i18n="information.downsidesIntro"></p>
         <div class="info-grid" id="downsides-list"></div>
       </section>
+
+      <section class="info-section info-featured-section" id="technology-article"></section>
 
       <section class="info-section">
         <h2 class="section-title" data-i18n="information.forumsTitle"></h2>

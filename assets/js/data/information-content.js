@@ -99,6 +99,40 @@ export const INFORMATION_CONTENT = {
       }
     }
   ],
+  featuredArticle: {
+    title: {
+      az: "19 litrlik bidonlarda olan suda təhlükə",
+      ru: "Опасность воды в 19-литровых канистрах.",
+      en: "Danger of water in 19-liter canisters."
+    },
+    body: {
+      az: `Bir çox insan düşünür ki, 19 litrlik bidon suları sadəcə filtrdən keçirilmiş sudur, amma əslində bu suyun istehsalında sənaye miqyaslı su təmizləmə sistemləri istifadə olunur və bu sistemlərin əsas texnologiyası əks osmosdur. Bu texnologiyada su xüsusi membranlardan yüksək təzyiq altında keçirilir və həll olunmuş maddələrin böyük hissəsi membranın digər tərəfində qalır. Sənaye sistemlərində suyun təmizlənməsi adətən mexaniki filtrasiya, aktiv karbon filtrasiya, əks osmos membranı, UV dezinfeksiya və bəzən mineral balansın bərpası mərhələlərindən keçir.
+Əks osmos sistemində su membranın içindən keçməsi üçün yüksək təzyiq tətbiq olunur və sənaye sistemlərində bu təzyiq çox vaxt 8-20 bar civarında olur. Bu zaman suda olan kalsium, maqnezium, karbonatlar və sulfatlar membran səthində kristallaşa bilər və bu proses 'scaling', yəni membran daşlaşması adlanır. Əgər bu baş verərsə membran tez tıxanır, filtrasiya sürəti azalır və sistemin enerji sərfi artır. Bu problemin qarşısını almaq üçün istehsalçılar antiscalant adlanan xüsusi kimyəvi maddələrdən istifadə edirlər; onların funksiyası kalsium və maqnezium ionlarını bağlamaq, kristallaşmanın qarşısını almaq və membranın ömrünü uzatmaqdır. Əks osmos sistemlərində bu maddələr adətən 2-5 mg/L kimi çox kiçik dozada istifadə olunur və ən çox HEDP, ATMP, polifosfatlar və poliakrilatlar kimi maddələr tətbiq edilir. Bu kimyəvi maddələr suya əl ilə deyil, xüsusi dozaj nasosları vasitəsilə əlavə olunur. Belə sistemlərdə adətən kimyəvi maddə üçün rezervuar, dozaj nasosu, idarəetmə sistemi və su borusuna inyeksiya nöqtəsi olur (şəkil 1). Antiscalant istifadəsi texnoloji cəhətdən normal hesab olunur, lakin dozajın düzgün tənzimlənməsi vacibdir, çünki doza az olduqda membranda duz kristalları əmələ gəlir və sistem tez sıradan çıxır, doza çox olduqda isə əlavə çöküntü yarana bilər və membranın keçiriciliyi azala bilər. Buna görə də içməli su istehsal edən müəssisələrdə suyun müntəzəm laborator analizi, texnoloji nəzarət və sanitariya qaydalarına əməl edilməsi məcburidir; nəticədə 19 litrlik butulka sularının istehsalı sadə filtrasiya deyil, mürəkkəb sənaye texnologiyasıdır və burada əsas məsələ istehsal prosesinə düzgün nəzarətdir.`,
+      ru: "Многие считают, что 19-литровая бутилированная вода - это просто вода после фильтра, но на практике при ее производстве используются промышленные системы очистки воды, а основной технологией является обратный осмос. В этой технологии вода проходит через специальные мембраны под высоким давлением, и большая часть растворенных веществ остается по другую сторону мембраны; на промышленных линиях очистка обычно включает механическую фильтрацию, фильтрацию активированным углем, мембрану обратного осмоса, УФ-дезинфекцию и иногда восстановление минерального баланса. Для прохождения воды через мембрану в системе обратного осмоса применяется высокое давление, и на промышленных установках оно часто составляет около 8-20 бар; при этом кальций, магний, карбонаты и сульфаты, содержащиеся в воде, могут кристаллизоваться на поверхности мембраны, и этот процесс называется scaling, то есть образованием отложений на мембране. Если это происходит, мембрана быстро засоряется, скорость фильтрации падает, а энергопотребление системы возрастает. Чтобы предотвратить эту проблему, производители используют специальные химические вещества, называемые антискалантами; их функция состоит в связывании ионов кальция и магния, предотвращении кристаллизации и продлении срока службы мембраны. В системах обратного осмоса такие вещества обычно применяются в очень малых дозах, около 2-5 mg/L, и чаще всего используются HEDP, ATMP, полифосфаты и полиакрилаты. Эти химические вещества добавляются не вручную, а через специальные дозирующие насосы; такая система обычно включает резервуар для химиката, дозирующий насос, систему управления и точку инъекции в водопроводную линию. Использование антискалантов считается нормальной технологической практикой, однако правильная настройка дозировки очень важна, потому что при недостаточной дозе на мембране образуются кристаллы солей и система быстрее выходит из строя, а при избыточной дозе могут появляться дополнительные отложения и снижаться проницаемость мембраны. Поэтому на предприятиях по производству питьевой воды обязательны регулярный лабораторный анализ воды, технологический контроль и соблюдение санитарных правил; в итоге производство 19-литровой бутилированной воды - это не простая фильтрация, а сложная промышленная технология, где ключевое значение имеет правильный контроль процесса.",
+      en: "Many people think 19-liter bottled water is simply filtered water, but in reality its production uses industrial water purification systems, and the main technology is reverse osmosis. In this process, water passes through special membranes under high pressure and most dissolved substances remain on the other side of the membrane; in industrial systems, treatment usually includes mechanical filtration, activated carbon filtration, a reverse osmosis membrane, UV disinfection, and sometimes mineral balance restoration. To make water pass through the membrane, reverse osmosis systems use high pressure, often around 8-20 bar in industrial plants; under those conditions calcium, magnesium, carbonates, and sulfates in the water can crystallize on the membrane surface, and this process is called scaling, meaning mineral buildup on the membrane. When this happens, the membrane clogs quickly, filtration speed drops, and the system uses more energy. To prevent this problem, manufacturers use special chemical agents called antiscalants; their role is to bind calcium and magnesium ions, prevent crystallization, and extend membrane life. In reverse osmosis systems these chemicals are usually used in very small doses, around 2-5 mg/L, and common examples include HEDP, ATMP, polyphosphates, and polyacrylates. These chemicals are not added by hand but through dedicated dosing pumps; such systems usually include a chemical tank, a dosing pump, a control system, and an injection point into the water line. The use of antiscalants is considered normal from a process perspective, but correct dosing is important because when the dose is too low, salt crystals form on the membrane and the system fails sooner, while an excessive dose can create extra deposits and reduce membrane permeability. For that reason, drinking water production facilities must carry out regular laboratory analysis, process control, and sanitary monitoring; as a result, 19-liter bottled water production is not simple filtration but a complex industrial technology where proper control of the production process is the key issue."
+    },
+    jumpLabel: {
+      az: "Şəkilə keç",
+      ru: "Перейти к схеме",
+      en: "Jump to image"
+    },
+    figure: {
+      id: "chemical-use-figure",
+      src: "assets/images/information/Su təmizləmədə kimyəvi maddələrin istifadəsi.png",
+      width: 1280,
+      height: 720,
+      alt: {
+        az: "Su təmizləmədə kimyəvi maddələrin istifadəsini göstərən sxem",
+        ru: "Схема использования химических реагентов в очистке воды",
+        en: "Diagram showing chemical use in water treatment"
+      },
+      caption: {
+        az: "Şəkil: su təmizləmədə kimyəvi maddələrin istifadəsini göstərən vizual izah.",
+        ru: "Иллюстрация: визуальное объяснение применения химических веществ при очистке воды.",
+        en: "Illustration: a visual explanation of how chemicals are used in water treatment."
+      }
+    }
+  },
   forums: [
     {
       tag: "Guide",

@@ -19,6 +19,7 @@ export const SITE_CONTENT = {
     common: {
       callBtn: "İndi zəng edin",
       emailBtn: "E-poçt göndərin",
+      newBadge: "Yeni",
       footer: "© 2026 ZenSu. Bütün hüquqlar qorunur.",
       orderBtn: "Sifariş üçün əlaqə"
     },
@@ -98,6 +99,7 @@ export const SITE_CONTENT = {
     common: {
       callBtn: "Позвонить сейчас",
       emailBtn: "Написать на email",
+      newBadge: "Новое",
       footer: "© 2026 ZenSu. Все права защищены.",
       orderBtn: "Связаться для заказа"
     },
@@ -176,6 +178,7 @@ export const SITE_CONTENT = {
     common: {
       callBtn: "Call now",
       emailBtn: "Send email",
+      newBadge: "New",
       footer: "© 2026 ZenSu. All rights reserved.",
       orderBtn: "Contact to order"
     },
