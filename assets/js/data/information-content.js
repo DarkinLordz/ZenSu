@@ -105,16 +105,155 @@ export const INFORMATION_CONTENT = {
       ru: "Опасность воды в 19-литровых канистрах.",
       en: "Danger of water in 19-liter canisters."
     },
-    body: {
-      az: `Bir çox insan düşünür ki, 19 litrlik bidon suları sadəcə filtrdən keçirilmiş sudur, amma əslində bu suyun istehsalında sənaye miqyaslı su təmizləmə sistemləri istifadə olunur və bu sistemlərin əsas texnologiyası əks osmosdur. Bu texnologiyada su xüsusi membranlardan yüksək təzyiq altında keçirilir və həll olunmuş maddələrin böyük hissəsi membranın digər tərəfində qalır. Sənaye sistemlərində suyun təmizlənməsi adətən mexaniki filtrasiya, aktiv karbon filtrasiya, əks osmos membranı, UV dezinfeksiya və bəzən mineral balansın bərpası mərhələlərindən keçir.
-Əks osmos sistemində su membranın içindən keçməsi üçün yüksək təzyiq tətbiq olunur və sənaye sistemlərində bu təzyiq çox vaxt 8-20 bar civarında olur. Bu zaman suda olan kalsium, maqnezium, karbonatlar və sulfatlar membran səthində kristallaşa bilər və bu proses 'scaling', yəni membran daşlaşması adlanır. Əgər bu baş verərsə membran tez tıxanır, filtrasiya sürəti azalır və sistemin enerji sərfi artır. Bu problemin qarşısını almaq üçün istehsalçılar antiscalant adlanan xüsusi kimyəvi maddələrdən istifadə edirlər; onların funksiyası kalsium və maqnezium ionlarını bağlamaq, kristallaşmanın qarşısını almaq və membranın ömrünü uzatmaqdır. Əks osmos sistemlərində bu maddələr adətən 2-5 mg/L kimi çox kiçik dozada istifadə olunur və ən çox HEDP, ATMP, polifosfatlar və poliakrilatlar kimi maddələr tətbiq edilir. Bu kimyəvi maddələr suya əl ilə deyil, xüsusi dozaj nasosları vasitəsilə əlavə olunur. Belə sistemlərdə adətən kimyəvi maddə üçün rezervuar, dozaj nasosu, idarəetmə sistemi və su borusuna inyeksiya nöqtəsi olur (şəkil 1). Antiscalant istifadəsi texnoloji cəhətdən normal hesab olunur, lakin dozajın düzgün tənzimlənməsi vacibdir, çünki doza az olduqda membranda duz kristalları əmələ gəlir və sistem tez sıradan çıxır, doza çox olduqda isə əlavə çöküntü yarana bilər və membranın keçiriciliyi azala bilər. Buna görə də içməli su istehsal edən müəssisələrdə suyun müntəzəm laborator analizi, texnoloji nəzarət və sanitariya qaydalarına əməl edilməsi məcburidir; nəticədə 19 litrlik butulka sularının istehsalı sadə filtrasiya deyil, mürəkkəb sənaye texnologiyasıdır və burada əsas məsələ istehsal prosesinə düzgün nəzarətdir.`,
-      ru: "Многие считают, что 19-литровая бутилированная вода - это просто вода после фильтра, но на практике при ее производстве используются промышленные системы очистки воды, а основной технологией является обратный осмос. В этой технологии вода проходит через специальные мембраны под высоким давлением, и большая часть растворенных веществ остается по другую сторону мембраны; на промышленных линиях очистка обычно включает механическую фильтрацию, фильтрацию активированным углем, мембрану обратного осмоса, УФ-дезинфекцию и иногда восстановление минерального баланса. Для прохождения воды через мембрану в системе обратного осмоса применяется высокое давление, и на промышленных установках оно часто составляет около 8-20 бар; при этом кальций, магний, карбонаты и сульфаты, содержащиеся в воде, могут кристаллизоваться на поверхности мембраны, и этот процесс называется scaling, то есть образованием отложений на мембране. Если это происходит, мембрана быстро засоряется, скорость фильтрации падает, а энергопотребление системы возрастает. Чтобы предотвратить эту проблему, производители используют специальные химические вещества, называемые антискалантами; их функция состоит в связывании ионов кальция и магния, предотвращении кристаллизации и продлении срока службы мембраны. В системах обратного осмоса такие вещества обычно применяются в очень малых дозах, около 2-5 mg/L, и чаще всего используются HEDP, ATMP, полифосфаты и полиакрилаты. Эти химические вещества добавляются не вручную, а через специальные дозирующие насосы; такая система обычно включает резервуар для химиката, дозирующий насос, систему управления и точку инъекции в водопроводную линию. Использование антискалантов считается нормальной технологической практикой, однако правильная настройка дозировки очень важна, потому что при недостаточной дозе на мембране образуются кристаллы солей и система быстрее выходит из строя, а при избыточной дозе могут появляться дополнительные отложения и снижаться проницаемость мембраны. Поэтому на предприятиях по производству питьевой воды обязательны регулярный лабораторный анализ воды, технологический контроль и соблюдение санитарных правил; в итоге производство 19-литровой бутилированной воды - это не простая фильтрация, а сложная промышленная технология, где ключевое значение имеет правильный контроль процесса.",
-      en: "Many people think 19-liter bottled water is simply filtered water, but in reality its production uses industrial water purification systems, and the main technology is reverse osmosis. In this process, water passes through special membranes under high pressure and most dissolved substances remain on the other side of the membrane; in industrial systems, treatment usually includes mechanical filtration, activated carbon filtration, a reverse osmosis membrane, UV disinfection, and sometimes mineral balance restoration. To make water pass through the membrane, reverse osmosis systems use high pressure, often around 8-20 bar in industrial plants; under those conditions calcium, magnesium, carbonates, and sulfates in the water can crystallize on the membrane surface, and this process is called scaling, meaning mineral buildup on the membrane. When this happens, the membrane clogs quickly, filtration speed drops, and the system uses more energy. To prevent this problem, manufacturers use special chemical agents called antiscalants; their role is to bind calcium and magnesium ions, prevent crystallization, and extend membrane life. In reverse osmosis systems these chemicals are usually used in very small doses, around 2-5 mg/L, and common examples include HEDP, ATMP, polyphosphates, and polyacrylates. These chemicals are not added by hand but through dedicated dosing pumps; such systems usually include a chemical tank, a dosing pump, a control system, and an injection point into the water line. The use of antiscalants is considered normal from a process perspective, but correct dosing is important because when the dose is too low, salt crystals form on the membrane and the system fails sooner, while an excessive dose can create extra deposits and reduce membrane permeability. For that reason, drinking water production facilities must carry out regular laboratory analysis, process control, and sanitary monitoring; as a result, 19-liter bottled water production is not simple filtration but a complex industrial technology where proper control of the production process is the key issue."
+    intro: {
+      az: "Bir çox insan düşünür ki, 19 litrlik bidon suları sadəcə filtrdən keçirilmiş sudur, amma əslində bu suyun istehsalında sənaye miqyaslı su təmizləmə sistemləri istifadə olunur.",
+      ru: "Многие считают, что 19-литровая вода в канистрах - это просто вода после фильтра, однако на практике для ее производства применяются промышленные системы очистки.",
+      en: "Many people think 19-liter canister water is simply filtered water, but in reality it is produced with industrial-scale water purification systems."
+    },
+    highlights: {
+      az: [
+        {
+          value: "8-20 bar",
+          label: "Sənaye əks osmos sistemlərində tətbiq olunan tipik təzyiq"
+        },
+        {
+          value: "2-5 mg/L",
+          label: "Antiskalant maddələrin adətən istifadə olunduğu doza"
+        },
+        {
+          value: "NSF",
+          label: "İstehsal prosesinin uyğunluğu üçün yoxlanmalı standartlardan biri"
+        }
+      ],
+      ru: [
+        {
+          value: "8-20 бар",
+          label: "Типичное давление в промышленных системах обратного осмоса"
+        },
+        {
+          value: "2-5 mg/L",
+          label: "Обычная дозировка антискалантов"
+        },
+        {
+          value: "NSF",
+          label: "Один из стандартов, по которым стоит проверять производственный процесс"
+        }
+      ],
+      en: [
+        {
+          value: "8-20 bar",
+          label: "Typical pressure used in industrial reverse osmosis systems"
+        },
+        {
+          value: "2-5 mg/L",
+          label: "The common dosing range for antiscalant chemicals"
+        },
+        {
+          value: "NSF",
+          label: "One of the standards worth checking for production compliance"
+        }
+      ]
+    },
+    sections: {
+      az: [
+        {
+          heading: "Sənaye təmizlənməsi necə işləyir?",
+          paragraphs: [
+            "Sənaye sistemlərində suyun təmizlənməsi adətən məişət osmos filtrlarında olduğu kimi mexaniki filtrasiya, aktiv kömür filtrasiya, əks osmos membranı, bəzən ultrabənövşəyi şua dezinfeksiyası və mineral balansın bərpası mərhələlərindən keçir.",
+            "Məişət filtrlarından fərqli olaraq istehsalat əks osmos sistemində suyun membranın içindən keçməsi üçün yüksək təzyiq tətbiq olunur və təzyiq çox vaxt 8-20 bar civarında olur. Bu zaman suda olan kalsium, maqnezium, karbonatlar və sulfatlar membran səthində kristallaşa bilər və bu proses 'scaling', yəni membran daşlaşması adlanır."
+          ]
+        },
+        {
+          heading: "Antiskalant niyə istifadə olunur?",
+          paragraphs: [
+            "Əgər bu baş verərsə membran tez tıxanır, filtrasiya sürəti azalır və sistemin enerji sərfi artır. Bu problemin qarşısını almaq üçün istehsalçılar antiskalant adlanan xüsusi kimyəvi maddələrdən istifadə edirlər. Antiskalant maddələrin funksiyası kalsium və maqnezium ionlarına nüfuz etmək, kristallaşmanın qarşısını almaq və membranın ömrünü uzatmaqdır.",
+            "Əks osmos sistemlərində bu maddələr adətən 2-5 mg/L kimi çox kiçik dozada istifadə olunur və ən çox HEDP, ATMP, polifosfatlar və poliakrilatlar kimi maddələr tətbiq edilir. Bu kimyəvi maddələr suya əl ilə deyil, xüsusi dozaj nasosları vasitəsilə əlavə olunur. Belə sistemlərdə adətən kimyəvi maddə üçün rezervuar, dozaj nasosu, idarəetmə sistemi və su borusuna inyeksiya nöqtəsi olur (şəkil 1)."
+          ]
+        },
+        {
+          heading: "Əsas məsələ nəzarətdir",
+          paragraphs: [
+            "Antiskalant istifadəsi texnoloji cəhətdən normal hesab olunur, lakin dozajın düzgün tənzimlənməsi vacibdir, çünki doza az olduqda membranda duz kristalları əmələ gəlir və sistem tez sıradan çıxır, doza çox olduqda isə əlavə çöküntü yarana bilər və membranın keçiriciliyi azala bilər.",
+            "Buna görə də içməli su istehsal edən müəssisələrdə suyun müntəzəm laborator analizi, texnoloji nəzarət və sanitariya qaydalarına əməl edilməsi vacibdir. Nəticədə 19 litrlik bidon sularının istehsalı sadə filtrasiya deyil, mürəkkəb sənaye texnologiyasıdır və burada əsas məsələ istehsal prosesinə düzgün nəzarətdir."
+          ]
+        }
+      ],
+      ru: [
+        {
+          heading: "Как работает промышленная очистка?",
+          paragraphs: [
+            "В промышленных системах очистка воды обычно проходит через механическую фильтрацию, активированный уголь, мембрану обратного осмоса, иногда ультрафиолетовую дезинфекцию и этап восстановления минерального баланса.",
+            "В отличие от бытовых фильтров, в промышленной системе обратного осмоса для прохождения воды через мембрану применяется высокое давление, часто около 8-20 бар. В этот момент кальций, магний, карбонаты и сульфаты могут кристаллизоваться на поверхности мембраны, и этот процесс называется scaling, то есть образованием отложений."
+          ]
+        },
+        {
+          heading: "Зачем используют антискаланты?",
+          paragraphs: [
+            "Если это происходит, мембрана быстро засоряется, скорость фильтрации падает, а энергопотребление системы растет. Чтобы предотвратить такую ситуацию, производители используют специальные химические вещества, называемые антискалантами. Их задача - вмешиваться в процесс кристаллизации и продлевать срок службы мембраны.",
+            "В системах обратного осмоса эти вещества обычно применяются в очень малых дозах, около 2-5 mg/L, и чаще всего используются HEDP, ATMP, полифосфаты и полиакрилаты. Их добавляют не вручную, а через дозирующие насосы, вместе с резервуаром для реагента, системой управления и точкой инъекции в трубопровод (рисунок 1)."
+          ]
+        },
+        {
+          heading: "Ключевой вопрос - контроль процесса",
+          paragraphs: [
+            "Использование антискалантов считается нормальной технологической практикой, но корректная дозировка критически важна: при недостаточной дозе на мембране образуются солевые кристаллы и система быстрее выходит из строя, а при избыточной дозе могут появляться дополнительные отложения и снижаться проницаемость мембраны.",
+            "Поэтому на предприятиях по производству питьевой воды важны регулярный лабораторный анализ, технологический контроль и соблюдение санитарных правил. В итоге производство воды в 19-литровых канистрах - это не простая фильтрация, а сложная промышленная технология, где решающее значение имеет правильный контроль процесса."
+          ]
+        }
+      ],
+      en: [
+        {
+          heading: "How does industrial purification work?",
+          paragraphs: [
+            "In industrial systems, water treatment usually passes through mechanical filtration, activated carbon filtration, a reverse osmosis membrane, sometimes ultraviolet disinfection, and mineral balance restoration stages.",
+            "Unlike home filters, industrial reverse osmosis systems use high pressure to force water through the membrane, often around 8-20 bar. Under those conditions, calcium, magnesium, carbonates, and sulfates can crystallize on the membrane surface, a process known as scaling."
+          ]
+        },
+        {
+          heading: "Why are antiscalants used?",
+          paragraphs: [
+            "When scaling happens, the membrane clogs faster, filtration slows down, and energy use increases. To prevent this, producers use special chemicals called antiscalants. Their function is to interfere with crystallization and help extend membrane life.",
+            "In reverse osmosis systems these chemicals are usually dosed in very small amounts, around 2-5 mg/L, and common examples include HEDP, ATMP, polyphosphates, and polyacrylates. They are added through dosing pumps rather than by hand, together with a chemical tank, a control unit, and an injection point into the water line (figure 1)."
+          ]
+        },
+        {
+          heading: "The key issue is process control",
+          paragraphs: [
+            "Using antiscalants is normal from a technical perspective, but the dosage must be controlled correctly. If the dose is too low, salt crystals form on the membrane and the system fails more quickly; if it is too high, extra deposits may appear and membrane permeability can decrease.",
+            "That is why drinking water producers need regular laboratory analysis, process control, and sanitary compliance. As a result, 19-liter canister water is not a simple filtration product but a complex industrial process where proper oversight is the decisive factor."
+          ]
+        }
+      ]
+    },
+    noteTitle: {
+      az: "Nəyə diqqət etməli?",
+      ru: "На что обратить внимание?",
+      en: "What should you check?"
+    },
+    note: {
+      az: "Sizin evinizdə və ya iş yerinizdə istifadə etdiyiniz bidon suların istehsalçısı suyun təmizlənməsində qeyd olunan texnoloji standartlara riayət etdiyindən əminsiniz? Əgər su istehsalçısının texnoloji prosesin NSF standartlarına uyğun aparılmasını təsdiq edən sənədlər yoxdursa, məişət osmos filtrlərini istifadə etməyiniz sağlamlığınızı qorumaq üçün verdiyiniz düzgün qərardır.",
+      ru: "Уверены ли вы, что производитель воды, которую вы используете дома или в офисе, соблюдает указанные технологические стандарты очистки? Если у производителя нет документов, подтверждающих соответствие процесса стандартам NSF, использование бытового осмос-фильтра может быть более надежным решением для защиты здоровья.",
+      en: "Are you confident that the producer of the canister water used in your home or workplace follows the required treatment standards? If the manufacturer cannot provide documents showing that the process complies with NSF standards, choosing a household reverse osmosis filter can be a safer decision for protecting your health."
     },
     jumpLabel: {
       az: "Şəkilə keç",
       ru: "Перейти к схеме",
       en: "Jump to image"
+    },
+    viewLabel: {
+      az: "Şəkilə bax",
+      ru: "Открыть изображение",
+      en: "View picture"
+    },
+    zoomHint: {
+      az: "Böyütmək üçün klikləyin",
+      ru: "Нажмите, чтобы увеличить",
+      en: "Click to zoom"
+    },
+    closeLabel: {
+      az: "Bağla",
+      ru: "Закрыть",
+      en: "Close"
     },
     figure: {
       id: "chemical-use-figure",
@@ -133,58 +272,5 @@ export const INFORMATION_CONTENT = {
       }
     }
   },
-  forums: [
-    {
-      tag: "Guide",
-      title: {
-        az: "Filtr seçərkən 7 əsas meyar",
-        ru: "7 ключевых критериев выбора фильтра",
-        en: "7 key criteria when choosing a filter"
-      },
-      description: {
-        az: "Ev və ya ofis üçün doğru sistem seçmək üçün su sərfiyyatı, təzyiq, mərhələ sayı və servis planını müqayisə edin.",
-        ru: "Чтобы выбрать подходящую систему для дома или офиса, сравнивайте расход воды, давление, число ступеней и сервисный план.",
-        en: "To choose the right system for home or office, compare water usage, pressure, stage count, and service plan."
-      }
-    },
-    {
-      tag: "Maintenance",
-      title: {
-        az: "Filtr dəyişimi cədvəli necə qurulur?",
-        ru: "Как составить график замены фильтров?",
-        en: "How to build a filter replacement schedule"
-      },
-      description: {
-        az: "İstifadə həcmi, mövsümi dəyişiklik və su keyfiyyətinə əsasən praktiki dəyişmə planı qurma üsulu.",
-        ru: "Практический подход к графику замены с учетом объема использования, сезонности и качества воды.",
-        en: "A practical replacement planning method based on usage volume, seasonality, and source water quality."
-      }
-    },
-    {
-      tag: "Comparison",
-      title: {
-        az: "Butulka su vs filtr sistemi",
-        ru: "Бутилированная вода vs фильтр-система",
-        en: "Bottled water vs filtration system"
-      },
-      description: {
-        az: "Aylıq xərclər, logistika, ekoloji təsir və keyfiyyət sabitliyi üzrə müqayisəli baxış.",
-        ru: "Сравнение по ежемесячным расходам, логистике, экологичности и стабильности качества.",
-        en: "A side-by-side view of monthly cost, logistics, environmental impact, and quality consistency."
-      }
-    },
-    {
-      tag: "Upcoming",
-      title: {
-        az: "Yeni mövzular üçün yer",
-        ru: "Место для новых тем",
-        en: "Space for upcoming topics"
-      },
-      description: {
-        az: "Bu blok gələcək məlumat forumları üçün ayrılıb. Yeni mövzu əlavə etmək üçün məlumat faylında yeni obyekt daxil edin.",
-        ru: "Этот блок зарезервирован для будущих информационных материалов. Добавьте новый объект в файл данных, чтобы расширить раздел.",
-        en: "This block is reserved for future educational forums. Add a new object in the data file to expand this section."
-      }
-    }
-  ]
+  forums: []
 };
