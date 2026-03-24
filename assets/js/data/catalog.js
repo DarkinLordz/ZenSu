@@ -46,14 +46,14 @@ export const PRODUCT_CATALOG = [
     category: "home",
     image: "assets/images/products/1.png",
     title: {
-      az: "BARYER PROFI OSMO 75",
-      ru: "5-ступенчатая система очистки воды обратного осмоса без помпы",
-      en: "5-stage non-pump reverse osmosis water purification system"
+      az: "ZenSu RO 75",
+      ru: "ZenSu RO 75",
+      en: "ZenSu RO 75"
     },
     description: {
-      az: "BARYER PROFI OSMO 75 — Bakteriya, virus və ərpi 100% təmizləyən, 5 pilləli (75 GPD membran), 12 litrlik çənli və 1 l/dəq məhsuldarlığa malik peşəkar tərs osmos su təmizləmə sistemi.",
-      ru: "БАРЬЕР ПРОФИ ОСМО 75 — 5-ступенчатая система обратного осмоса с мембраной 75 GPD и баком 12 л, обеспечивающая 100% очистку от бактерий, вирусов и накипи при производительности 1 л/мин.",
-      en: "BARRIER PROFI OSMO 75 — A 5-stage reverse osmosis system with 75 GPD membrane and 12L tank, providing 100% purification from bacteria, viruses, and limescale with a 1 L/min flow rate."
+      az: "Bakteriya, virus və ərpi 100% təmizləyən, 5 pilləli (75 GPD membran), 12 litrlik çənli və 1 l/dəq məhsuldarlığa malik peşəkar tərs osmos su təmizləmə sistemi.",
+      ru: "5-ступенчатая система обратного осмоса с мембраной 75 GPD и баком 12 л, обеспечивающая 100% очистку от бактерий, вирусов и накипи при производительности 1 л/мин.",
+      en: "A 5-stage reverse osmosis system with 75 GPD membrane and 12L tank, providing 100% purification from bacteria, viruses, and limescale with a 1 L/min flow rate."
     },
     price: ""
   }
